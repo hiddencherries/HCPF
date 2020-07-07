@@ -1,0 +1,44 @@
+#grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+#body {
+  background-color: none;
+  font-family: helvetica;
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 80px;
+}
+#line {
+  display: inline;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: helvetica;
+  color: black;
+}
+#line2 {
+  margin-top: 50px;
+  font-family: helvetica;
+}
+#left {
+  margin-block-start: 40px;
+}
+#right {
+  margin-top: 25px;
+}
+b {
+  text-align: center;
+  margin: none;
+  padding: none;
+}
+.hl {
+   text-decoration: none; color: blue;
+}
+.hl2 {
+    text-decoration: none; color: gray;
+}
+h2 {
+  font-size: 100px;
+  text-align: center;
+
+}
